@@ -1,0 +1,31 @@
+.filter-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.filter-title {
+  margin-bottom: 20px;
+}
+
+.grid-buttons-container {
+  display: flex;
+  align-items: flex-start; /* Adjust as needed */
+}
+
+.layer-buttons {
+  display: flex;
+  flex-direction: column; /* Stack buttons vertically */
+  margin-left: 20px; /* Space between grid and buttons */
+}
+
+.layer-buttons button {
+  margin-bottom: 10px; /* Space between buttons */
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.received-grid-container {
+  margin-top: 20px;
+}
